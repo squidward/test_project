@@ -1,0 +1,1705 @@
+[
+{
+    "pk": 1, 
+    "model": "lemon.menusection", 
+    "fields": {
+        "position": 0, 
+        "name": "sdf"
+    }
+},
+{
+    "pk": 1, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "permission", 
+        "name": "permission", 
+        "app_label": "auth"
+    }
+},
+{
+    "pk": 2, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "group", 
+        "name": "group", 
+        "app_label": "auth"
+    }
+},
+{
+    "pk": 3, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "user", 
+        "name": "user", 
+        "app_label": "auth"
+    }
+},
+{
+    "pk": 4, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "contenttype", 
+        "name": "content type", 
+        "app_label": "contenttypes"
+    }
+},
+{
+    "pk": 5, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "session", 
+        "name": "session", 
+        "app_label": "sessions"
+    }
+},
+{
+    "pk": 6, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "site", 
+        "name": "site", 
+        "app_label": "sites"
+    }
+},
+{
+    "pk": 7, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "document", 
+        "name": "document", 
+        "app_label": "myapp"
+    }
+},
+{
+    "pk": 8, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "logentry", 
+        "name": "log entry", 
+        "app_label": "admin"
+    }
+},
+{
+    "pk": 10, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "docandattr2", 
+        "name": "doc and attr2", 
+        "app_label": "myapp"
+    }
+},
+{
+    "pk": 11, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "mytext", 
+        "name": "my text", 
+        "app_label": "myapp"
+    }
+},
+{
+    "pk": 12, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "redactortext", 
+        "name": "redactor text", 
+        "app_label": "myapp"
+    }
+},
+{
+    "pk": 13, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "menusection", 
+        "name": "menu section", 
+        "app_label": "lemon"
+    }
+},
+{
+    "pk": 14, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "menuitem", 
+        "name": "menu item", 
+        "app_label": "lemon"
+    }
+},
+{
+    "pk": 15, 
+    "model": "contenttypes.contenttype", 
+    "fields": {
+        "model": "migrationhistory", 
+        "name": "migration history", 
+        "app_label": "south"
+    }
+},
+{
+    "pk": "b1clc0d74wzzm2k29yh0tmen1oro3s21", 
+    "model": "sessions.session", 
+    "fields": {
+        "expire_date": "2014-04-11T20:54:44.704Z", 
+        "session_data": "N2U5YjJjZWI5N2I3YWYzMjZkMjAwOTdiNmRmZDg3OTVhNzY3NDMxNDqAAn1xAShVEl9hdXRoX3VzZXJfYmFja2VuZHECVSlkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZHEDVQ1fYXV0aF91c2VyX2lkcQRLAXUu"
+    }
+},
+{
+    "pk": "ctm8afcpudx58yio7a1eyolt1vx0gyhs", 
+    "model": "sessions.session", 
+    "fields": {
+        "expire_date": "2014-03-08T10:57:25.488Z", 
+        "session_data": "N2U5YjJjZWI5N2I3YWYzMjZkMjAwOTdiNmRmZDg3OTVhNzY3NDMxNDqAAn1xAShVEl9hdXRoX3VzZXJfYmFja2VuZHECVSlkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZHEDVQ1fYXV0aF91c2VyX2lkcQRLAXUu"
+    }
+},
+{
+    "pk": "m5979z8mw23e99lkn6nbiyfi6xzj37jf", 
+    "model": "sessions.session", 
+    "fields": {
+        "expire_date": "2014-04-20T11:01:24.510Z", 
+        "session_data": "NTFhNzdmNTQ1Nzc1MmZjZDViZDdhNzE4OGQ5ZTMwZGM0Y2RmMWJhMDqAAn1xAS4="
+    }
+},
+{
+    "pk": 1, 
+    "model": "sites.site", 
+    "fields": {
+        "domain": "example.com", 
+        "name": "example.com"
+    }
+},
+{
+    "pk": 1, 
+    "model": "myapp.document", 
+    "fields": {
+        "docfile": "documents/2013/01/30/example01.png"
+    }
+},
+{
+    "pk": 2, 
+    "model": "myapp.document", 
+    "fields": {
+        "docfile": "documents/2013/01/30/example02.jpg"
+    }
+},
+{
+    "pk": 3, 
+    "model": "myapp.document", 
+    "fields": {
+        "docfile": "documents/2014/02/21/django-filebrowser-no-grappelli-master.zip"
+    }
+},
+{
+    "pk": 4, 
+    "model": "myapp.document", 
+    "fields": {
+        "docfile": "documents/2014/02/22/1_20.txt"
+    }
+},
+{
+    "pk": 5, 
+    "model": "myapp.document", 
+    "fields": {
+        "docfile": "documents/2014/02/22/django-filebrowser-no-grappelli-master_12.zip"
+    }
+},
+{
+    "pk": 6, 
+    "model": "myapp.document", 
+    "fields": {
+        "docfile": "documents/2014/02/22/django-filebrowser-no-grappelli-master_13.zip"
+    }
+},
+{
+    "pk": 7, 
+    "model": "myapp.document", 
+    "fields": {
+        "docfile": "documents/2014/03/31/1.txt"
+    }
+},
+{
+    "pk": 8, 
+    "model": "myapp.document", 
+    "fields": {
+        "docfile": "documents/2014/04/06/16ca75f6efd7072cb4a18401b14efd1e.jpg"
+    }
+},
+{
+    "pk": 9, 
+    "model": "myapp.document", 
+    "fields": {
+        "docfile": "documents/2014/04/06/16ca75f6efd7072cb4a18401b14efd1e_1.jpg"
+    }
+},
+{
+    "pk": 10, 
+    "model": "myapp.document", 
+    "fields": {
+        "docfile": "documents/2014/04/06/b222d51cf84ca767e033b2e68286127b.png"
+    }
+},
+{
+    "pk": 11, 
+    "model": "myapp.document", 
+    "fields": {
+        "docfile": "documents/2014/04/06/postgres.txt"
+    }
+},
+{
+    "pk": 12, 
+    "model": "myapp.document", 
+    "fields": {
+        "docfile": "documents/2014/04/06/b222d51cf84ca767e033b2e68286127b_1.png"
+    }
+},
+{
+    "pk": 13, 
+    "model": "myapp.document", 
+    "fields": {
+        "docfile": "documents/2014/04/06/16ca75f6efd7072cb4a18401b14efd1e_2.jpg"
+    }
+},
+{
+    "pk": 14, 
+    "model": "myapp.document", 
+    "fields": {
+        "docfile": "documents/2014/04/26/examples.desktop"
+    }
+},
+{
+    "pk": 1, 
+    "model": "myapp.docandattr2", 
+    "fields": {
+        "document": "documents/2014/02/22/django-filebrowser-no-grappelli-master_14.zip", 
+        "name": "asd"
+    }
+},
+{
+    "pk": 2, 
+    "model": "myapp.docandattr2", 
+    "fields": {
+        "document": "documents/2014/02/22/1_21.txt", 
+        "name": "asdasd "
+    }
+},
+{
+    "pk": 3, 
+    "model": "myapp.docandattr2", 
+    "fields": {
+        "document": "documents/2014/02/22/1_22.txt", 
+        "name": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    }
+},
+{
+    "pk": 4, 
+    "model": "myapp.docandattr2", 
+    "fields": {
+        "document": "documents/2014/02/22/1_23.txt", 
+        "name": "a"
+    }
+},
+{
+    "pk": 5, 
+    "model": "myapp.docandattr2", 
+    "fields": {
+        "document": "documents/2014/02/22/django-filebrowser-no-grappelli-master_15.zip", 
+        "name": "ngngngng"
+    }
+},
+{
+    "pk": 6, 
+    "model": "myapp.docandattr2", 
+    "fields": {
+        "document": "documents/2014/02/22/django-filebrowser-no-grappelli-master_16.zip", 
+        "name": "asdasd asd asd "
+    }
+},
+{
+    "pk": 7, 
+    "model": "myapp.docandattr2", 
+    "fields": {
+        "document": "documents/2014/02/22/16ca75f6efd7072cb4a18401b14efd1e.jpg", 
+        "name": "asdasd asd asd "
+    }
+},
+{
+    "pk": 8, 
+    "model": "myapp.docandattr2", 
+    "fields": {
+        "document": "documents/2014/02/22/16ca75f6efd7072cb4a18401b14efd1e_1.jpg", 
+        "name": "asdasd asd asd "
+    }
+},
+{
+    "pk": 9, 
+    "model": "myapp.docandattr2", 
+    "fields": {
+        "document": "documents/2014/02/22/16ca75f6efd7072cb4a18401b14efd1e_2.jpg", 
+        "name": "asdasd asd asd "
+    }
+},
+{
+    "pk": 10, 
+    "model": "myapp.docandattr2", 
+    "fields": {
+        "document": "documents/2014/02/22/16ca75f6efd7072cb4a18401b14efd1e_3.jpg", 
+        "name": "asdasd asd asd "
+    }
+},
+{
+    "pk": 11, 
+    "model": "myapp.docandattr2", 
+    "fields": {
+        "document": "documents/2014/02/22/16ca75f6efd7072cb4a18401b14efd1e_4.jpg", 
+        "name": "asdasd asd asd "
+    }
+},
+{
+    "pk": 12, 
+    "model": "myapp.docandattr2", 
+    "fields": {
+        "document": "documents/2014/02/22/b222d51cf84ca767e033b2e68286127b.png", 
+        "name": "aaaaaaaaaaaaaaaaaa"
+    }
+},
+{
+    "pk": 13, 
+    "model": "myapp.docandattr2", 
+    "fields": {
+        "document": "documents/2014/02/22/b222d51cf84ca767e033b2e68286127b_1.png", 
+        "name": "aaaaaaaaaaaaaaaaaa"
+    }
+},
+{
+    "pk": 14, 
+    "model": "myapp.docandattr2", 
+    "fields": {
+        "document": "documents/2014/02/22/b222d51cf84ca767e033b2e68286127b_2.png", 
+        "name": "aaaaaaaaaaaaaaaaaa"
+    }
+},
+{
+    "pk": 15, 
+    "model": "myapp.docandattr2", 
+    "fields": {
+        "document": "documents/2014/02/22/b222d51cf84ca767e033b2e68286127b_3.png", 
+        "name": "aqwe"
+    }
+},
+{
+    "pk": 16, 
+    "model": "myapp.docandattr2", 
+    "fields": {
+        "document": "documents/2014/02/22/b222d51cf84ca767e033b2e68286127b_4.png", 
+        "name": "789"
+    }
+},
+{
+    "pk": 17, 
+    "model": "myapp.docandattr2", 
+    "fields": {
+        "document": "documents/2014/02/22/b222d51cf84ca767e033b2e68286127b_5.png", 
+        "name": "8989"
+    }
+},
+{
+    "pk": 18, 
+    "model": "myapp.docandattr2", 
+    "fields": {
+        "document": "documents/2014/04/06/b222d51cf84ca767e033b2e68286127b_2.png", 
+        "name": "sport"
+    }
+},
+{
+    "pk": 1, 
+    "model": "myapp.mytext", 
+    "fields": {
+        "content": "<p>asdas asd asd</p>\r\n"
+    }
+},
+{
+    "pk": 2, 
+    "model": "myapp.mytext", 
+    "fields": {
+        "content": "<p>asd asd asd wqd asd zc</p>\r\n"
+    }
+},
+{
+    "pk": 3, 
+    "model": "myapp.mytext", 
+    "fields": {
+        "content": "<p><ins><span dir=\"rtl\"><strong>asd asd asda sdas d</strong></span></ins><img alt=\"laugh\" height=\"20\" src=\"http://127.0.0.1:8000/static/ckeditor/ckeditor/plugins/smiley/images/teeth_smile.gif\" title=\"laugh\" width=\"20\" /><img alt=\"heart\" height=\"20\" src=\"http://127.0.0.1:8000/static/ckeditor/ckeditor/plugins/smiley/images/heart.gif\" title=\"heart\" width=\"20\" />E</p>\r\n"
+    }
+},
+{
+    "pk": 4, 
+    "model": "myapp.mytext", 
+    "fields": {
+        "content": "<h1><span style=\"color:#FF0000;\">asd asd asda sd </span></h1>\r\n"
+    }
+},
+{
+    "pk": 5, 
+    "model": "myapp.mytext", 
+    "fields": {
+        "content": "<p><span style=\"background-color:#B22222;\">asd asda asd asd asdasd asd asd a</span></p>\r\n"
+    }
+},
+{
+    "pk": 6, 
+    "model": "myapp.mytext", 
+    "fields": {
+        "content": "<p><img alt=\"\" height=\"63\" src=\"/media/uploads/2014/02/23/b222d51cf84ca767e033b2e68286127b.png\" width=\"63\" /></p>\r\n"
+    }
+},
+{
+    "pk": 7, 
+    "model": "myapp.mytext", 
+    "fields": {
+        "content": "<p>/home/alex/FileTest/django-ckeditor-master/README.rst</p>\r\n"
+    }
+},
+{
+    "pk": 8, 
+    "model": "myapp.mytext", 
+    "fields": {
+        "content": "<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" height=\"55\" width=\"212\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t\t<td>&nbsp;</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>&nbsp;</p>\r\n"
+    }
+},
+{
+    "pk": 9, 
+    "model": "myapp.mytext", 
+    "fields": {
+        "content": "<p><img alt=\"angry\" height=\"497\" src=\"http://127.0.0.1:8000/static/ckeditor/ckeditor/plugins/smiley/images/angry_smile.gif\" title=\"angry\" width=\"497\" /></p>\r\n"
+    }
+},
+{
+    "pk": 10, 
+    "model": "myapp.mytext", 
+    "fields": {
+        "content": "<h3 style=\"text-align: center;\"><span style=\"font-size:9px;\"><span style=\"background-color:#008000;\">We&#39;re building a blog-like Pylons web application that uses CKeditor and allows to upload images. How can I tell CKeditor that the user attempted an upload that isn&#39;t acceptable?</span><br />\r\n<span style=\"background-color:#008000;\">For example, if a user tries to upload an exe instead of an image, I&#39;d like to raise some kind of error and allow the user to recheck what she&#39;s trying to upload.</span><br />\r\n<span style=\"background-color:#008000;\">Right now I&#39;m doing the check server-side, but I can&#39;t figure out what to retu</span></span>We&#39;re building a blog-like Pylons web application that uses CKeditor and allows to upload images. How can I tell CKeditor that the user attempted an upload that isn&#39;t acceptable?<br />\r\nFor example, if a user tries to upload an exe instead of an image, I&#39;d like to raise some kind of error and allow the user to recheck what she&#39;s trying to upload.<br />\r\nRight now I&#39;m doing the check server-side, but I can&#39;t figure out what to retu</h3>\r\n"
+    }
+},
+{
+    "pk": 1, 
+    "model": "myapp.redactortext", 
+    "fields": {
+        "content": "<p><a href=\"/media/uploads/c39cc72d-7dd6-41c6-83d0-57791a96f1e6.zip\">c39cc72d-7dd6-41c6-83d0-57791a96f1e6.zip</a></p>\r\n<p>xcfvxfd<br>\r\n</p>\r\n"
+    }
+},
+{
+    "pk": 2, 
+    "model": "myapp.redactortext", 
+    "fields": {
+        "content": "\r\n<blockquote><p><b>&nbsp;asdas d</b><br>\r\n</p>\r\n\r\n<table id=\"table64797\">\r\n<tbody>\r\n\t<tr>\r\n\t\t<td class=\"\">&nbsp;</td>\r\n\r\n\t\t<td class=\"\">&nbsp;</td>\r\n\r\n\t\t<td>&nbsp;</td>\r\n\r\n\t\t<td>&nbsp;</td>\r\n\t</tr>\r\n\r\n\t<tr>\r\n\t\t<td>&nbsp;</td>\r\n\r\n\t\t<td>&nbsp;</td>\r\n\r\n\t\t<td class=\"current\"><b>&nbsp;</b></td>\r\n\r\n\t\t<td class=\"current\"><b>&nbsp;</b></td>\r\n\t</tr>\r\n</tbody>\r\n</table>\r\n<p><img style=\"float: none; margin: 0px;\" unselectable=\"on\" src=\"/media/uploads/bf209080-c6e5-4ba6-8378-a11ed0bf2cb7.png\" alt=\"bf209080-c6e5-4ba6-8378-a11ed0bf2cb7.png\"></p>\r\n\r\n</blockquote>\r\n"
+    }
+},
+{
+    "pk": 3, 
+    "model": "myapp.redactortext", 
+    "fields": {
+        "content": "<p>dgfhdkfgh dkfjg dskfjghsdkf gsd fgsdkfgh sdglsdkfgh lsdkfgsdfkj gsdlf kgsd gsdlkghsd gsdf gsdfg <a href=\"/media/uploads/55790ffd-b656-4d9f-8a9f-31c009d37ece.zip\">55790ffd-b656-4d9f-8a9f-31c009d37ece.zip</a><br>\r\n<a href=\"/media/uploads/b6d1c08e-ca5b-403d-9e22-7bbfc0578461.txt\">b6d1c08e-ca5b-403d-9e22-7bbfc0578461.txt</a><br>\r\n</p>\r\n"
+    }
+},
+{
+    "pk": 4, 
+    "model": "myapp.redactortext", 
+    "fields": {
+        "content": "<p><a href=\"/media/uploads/b66f9613-001b-48c9-b177-a2baaa4d0f35.zip\">b66f9613-001b-48c9-b177-a2baaa4d0f35.zip</a></p>\r\n"
+    }
+},
+{
+    "pk": 5, 
+    "model": "myapp.redactortext", 
+    "fields": {
+        "content": "<p>asd asd asd asd as<br>\r\n</p>\r\n"
+    }
+},
+{
+    "pk": 6, 
+    "model": "myapp.redactortext", 
+    "fields": {
+        "content": "<p>sad asd asd asd asd asd asd asd<a href=\"/media/uploads/3d5ab2a2-7aa5-4611-89b1-fbf166eaebc9.zip\">3d5ab2a2-7aa5-4611-89b1-fbf166eaebc9.zip</a></p>\r\n"
+    }
+},
+{
+    "pk": 7, 
+    "model": "myapp.redactortext", 
+    "fields": {
+        "content": "<p>sad asd asd asd asd <br>\r\n</p>\r\n"
+    }
+},
+{
+    "pk": 8, 
+    "model": "myapp.redactortext", 
+    "fields": {
+        "content": "<p><a href=\"/media/uploads/39f5ac42-1fb6-492a-b8ab-39d182d06669.txt\">39f5ac42-1fb6-492a-b8ab-39d182d06669.txt</a></p>\r\n"
+    }
+},
+{
+    "pk": 9, 
+    "model": "myapp.redactortext", 
+    "fields": {
+        "content": "<p><a href=\"/media/uploads/396fc3fa-27db-400e-8d2f-3ce5ac357165.zip\">dasda sda sd asd.zip</a></p>\r\n"
+    }
+},
+{
+    "pk": 10, 
+    "model": "myapp.redactortext", 
+    "fields": {
+        "content": "<p><a href=\"/media/uploads/24a67026-eb6c-47a0-b4e4-20d4545da7fd.zip\">11111111111111111111111.zip</a></p>\r\n"
+    }
+},
+{
+    "pk": 11, 
+    "model": "myapp.redactortext", 
+    "fields": {
+        "content": "<p><i>&nbsp;sdfsdf sd fsd</i><br>\r\n</p>\r\n"
+    }
+},
+{
+    "pk": 12, 
+    "model": "myapp.redactortext", 
+    "fields": {
+        "content": "<p>sdaasd</p>\r\n"
+    }
+},
+{
+    "pk": 13, 
+    "model": "myapp.redactortext", 
+    "fields": {
+        "content": "<p><a href=\"/media/uploads/5849a7c9-0ed1-434c-af3e-fabb61311b49.png\">5849a7c9-0ed1-434c-af3e-fabb61311b49.png</a></p>\r\n"
+    }
+},
+{
+    "pk": 14, 
+    "model": "myapp.redactortext", 
+    "fields": {
+        "content": "<p><a href=\"/media/uploads/20bf29ef-b467-46e8-ad28-2aa009ccb5c4.png\">20bf29ef-b467-46e8-ad28-2aa009ccb5c4.png</a></p>\r\n<p><a href=\"/media/uploads/20bf29ef-b467-46e8-ad28-2aa009ccb5c4.png\"></a><a href=\"/media/uploads/b222d51cf84ca767e033b2e68286127b.png\">b222d51cf84ca767e033b2e68286127b.png</a></p>\r\n"
+    }
+},
+{
+    "pk": 15, 
+    "model": "myapp.redactortext", 
+    "fields": {
+        "content": "<p><a href=\"/media/uploads/postgres.txt\">postgres.txt</a></p>\r\n"
+    }
+},
+{
+    "pk": 16, 
+    "model": "myapp.redactortext", 
+    "fields": {
+        "content": "<p><a href=\"/media/uploads/postgres_1.txt\">postgres.txt</a></p>\r\n"
+    }
+},
+{
+    "pk": 17, 
+    "model": "myapp.redactortext", 
+    "fields": {
+        "content": "<p><a href=\"/media/uploads/%25Y/%25m/%25d/postgres.txt\">postgres.txt</a></p>\r\n"
+    }
+},
+{
+    "pk": 18, 
+    "model": "myapp.redactortext", 
+    "fields": {
+        "content": "<p><a href=\"/media/uploads/pgadmin.log\">pgadmin.log</a></p>\r\n"
+    }
+},
+{
+    "pk": 19, 
+    "model": "myapp.redactortext", 
+    "fields": {
+        "content": "<p><a href=\"/media/uploads/examples.desktop\">examples.desktop</a></p>\r\n"
+    }
+},
+{
+    "pk": 20, 
+    "model": "myapp.redactortext", 
+    "fields": {
+        "content": "<p><a href=\"/media/uploads/pgadmin_1.log\">pgadmin.log</a></p>\r\n"
+    }
+},
+{
+    "pk": 21, 
+    "model": "myapp.redactortext", 
+    "fields": {
+        "content": "<p><a href=\"/media/uploads/postgres_2.txt\">postgres.txt</a></p>\r\n"
+    }
+},
+{
+    "pk": 22, 
+    "model": "myapp.redactortext", 
+    "fields": {
+        "content": "<p><img src=\"/media/uploads/b222d51cf84ca767e033b2e68286127b_1.png\" alt=\"b222d51cf84ca767e033b2e68286127b.png\"></p>\r\n"
+    }
+},
+{
+    "pk": 23, 
+    "model": "myapp.redactortext", 
+    "fields": {
+        "content": "<p><a href=\"/media/uploads/postgres_3.txt\">postgres.txt</a></p>\r\n"
+    }
+},
+{
+    "pk": 24, 
+    "model": "myapp.redactortext", 
+    "fields": {
+        "content": "<p><a href=\"/media/uploads/examples_1.desktop\">examples.desktop</a></p>\r\n"
+    }
+},
+{
+    "pk": 25, 
+    "model": "myapp.redactortext", 
+    "fields": {
+        "content": "<p><a href=\"/media/redactor/postgres.txt\">postgres.txt</a></p>\r\n"
+    }
+},
+{
+    "pk": 26, 
+    "model": "myapp.redactortext", 
+    "fields": {
+        "content": "<p><a href=\"/media/redactor/%25Y/%25m/%25d/pgadmin.log\">pgadmin.log</a></p>\r\n"
+    }
+},
+{
+    "pk": 27, 
+    "model": "myapp.redactortext", 
+    "fields": {
+        "content": "<p><a href=\"/media/postgres.txt\">postgres.txt</a></p>\r\n"
+    }
+},
+{
+    "pk": 28, 
+    "model": "myapp.redactortext", 
+    "fields": {
+        "content": "<p><a href=\"/media/examples.desktop\">examples.desktop</a></p>\r\n"
+    }
+},
+{
+    "pk": 29, 
+    "model": "myapp.redactortext", 
+    "fields": {
+        "content": "<p><a href=\"/media/examples_1.desktop\">examples.desktop</a></p>\r\n"
+    }
+},
+{
+    "pk": 30, 
+    "model": "myapp.redactortext", 
+    "fields": {
+        "content": "<p><a href=\"/media/examples_2.desktop\">examples.desktop</a></p>\r\n"
+    }
+},
+{
+    "pk": 31, 
+    "model": "myapp.redactortext", 
+    "fields": {
+        "content": "<p><a href=\"/media/postgres_1.txt\">postgres.txt</a></p>\r\n"
+    }
+},
+{
+    "pk": 32, 
+    "model": "myapp.redactortext", 
+    "fields": {
+        "content": "<p><a href=\"/media/examples_3.desktop\">examples.desktop</a></p>\r\n"
+    }
+},
+{
+    "pk": 33, 
+    "model": "myapp.redactortext", 
+    "fields": {
+        "content": "<p><a href=\"/media/uploads/pgadmin_2.log\">pgadmin.log</a></p>\r\n"
+    }
+},
+{
+    "pk": 34, 
+    "model": "myapp.redactortext", 
+    "fields": {
+        "content": "<p><a href=\"/media/uploads//tmp/examples.desktop\">examples.desktop</a></p>\r\n"
+    }
+},
+{
+    "pk": 35, 
+    "model": "myapp.redactortext", 
+    "fields": {
+        "content": "<p><a href=\"/media/uploads/2014/04/06/examples.desktop\">examples.desktop</a></p>\r\n"
+    }
+},
+{
+    "pk": 36, 
+    "model": "myapp.redactortext", 
+    "fields": {
+        "content": "<p><a href=\"/media/uploads/2014/04/06/pgadmin.log\">pgadmin.log</a></p>\r\n"
+    }
+},
+{
+    "pk": 37, 
+    "model": "myapp.redactortext", 
+    "fields": {
+        "content": "<p><img src=\"/media/uploads/2014/04/06/b222d51cf84ca767e033b2e68286127b.png\" alt=\"b222d51cf84ca767e033b2e68286127b.png\"></p>\r\n"
+    }
+},
+{
+    "pk": 1, 
+    "model": "south.migrationhistory", 
+    "fields": {
+        "applied": "2014-03-28T20:30:08.977Z", 
+        "app_name": "lemon", 
+        "migration": "0001_initial"
+    }
+},
+{
+    "pk": 1, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_permission", 
+        "name": "Can add permission", 
+        "content_type": 1
+    }
+},
+{
+    "pk": 2, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_permission", 
+        "name": "Can change permission", 
+        "content_type": 1
+    }
+},
+{
+    "pk": 3, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_permission", 
+        "name": "Can delete permission", 
+        "content_type": 1
+    }
+},
+{
+    "pk": 4, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_group", 
+        "name": "Can add group", 
+        "content_type": 2
+    }
+},
+{
+    "pk": 5, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_group", 
+        "name": "Can change group", 
+        "content_type": 2
+    }
+},
+{
+    "pk": 6, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_group", 
+        "name": "Can delete group", 
+        "content_type": 2
+    }
+},
+{
+    "pk": 7, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_user", 
+        "name": "Can add user", 
+        "content_type": 3
+    }
+},
+{
+    "pk": 8, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_user", 
+        "name": "Can change user", 
+        "content_type": 3
+    }
+},
+{
+    "pk": 9, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_user", 
+        "name": "Can delete user", 
+        "content_type": 3
+    }
+},
+{
+    "pk": 10, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_contenttype", 
+        "name": "Can add content type", 
+        "content_type": 4
+    }
+},
+{
+    "pk": 11, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_contenttype", 
+        "name": "Can change content type", 
+        "content_type": 4
+    }
+},
+{
+    "pk": 12, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_contenttype", 
+        "name": "Can delete content type", 
+        "content_type": 4
+    }
+},
+{
+    "pk": 13, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_session", 
+        "name": "Can add session", 
+        "content_type": 5
+    }
+},
+{
+    "pk": 14, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_session", 
+        "name": "Can change session", 
+        "content_type": 5
+    }
+},
+{
+    "pk": 15, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_session", 
+        "name": "Can delete session", 
+        "content_type": 5
+    }
+},
+{
+    "pk": 16, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_site", 
+        "name": "Can add site", 
+        "content_type": 6
+    }
+},
+{
+    "pk": 17, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_site", 
+        "name": "Can change site", 
+        "content_type": 6
+    }
+},
+{
+    "pk": 18, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_site", 
+        "name": "Can delete site", 
+        "content_type": 6
+    }
+},
+{
+    "pk": 19, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_document", 
+        "name": "Can add document", 
+        "content_type": 7
+    }
+},
+{
+    "pk": 20, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_document", 
+        "name": "Can change document", 
+        "content_type": 7
+    }
+},
+{
+    "pk": 21, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_document", 
+        "name": "Can delete document", 
+        "content_type": 7
+    }
+},
+{
+    "pk": 22, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_logentry", 
+        "name": "Can add log entry", 
+        "content_type": 8
+    }
+},
+{
+    "pk": 23, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_logentry", 
+        "name": "Can change log entry", 
+        "content_type": 8
+    }
+},
+{
+    "pk": 24, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_logentry", 
+        "name": "Can delete log entry", 
+        "content_type": 8
+    }
+},
+{
+    "pk": 28, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_docandattr2", 
+        "name": "Can add doc and attr2", 
+        "content_type": 10
+    }
+},
+{
+    "pk": 29, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_docandattr2", 
+        "name": "Can change doc and attr2", 
+        "content_type": 10
+    }
+},
+{
+    "pk": 30, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_docandattr2", 
+        "name": "Can delete doc and attr2", 
+        "content_type": 10
+    }
+},
+{
+    "pk": 31, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_mytext", 
+        "name": "Can add my text", 
+        "content_type": 11
+    }
+},
+{
+    "pk": 32, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_mytext", 
+        "name": "Can change my text", 
+        "content_type": 11
+    }
+},
+{
+    "pk": 33, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_mytext", 
+        "name": "Can delete my text", 
+        "content_type": 11
+    }
+},
+{
+    "pk": 34, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_redactortext", 
+        "name": "Can add redactor text", 
+        "content_type": 12
+    }
+},
+{
+    "pk": 35, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_redactortext", 
+        "name": "Can change redactor text", 
+        "content_type": 12
+    }
+},
+{
+    "pk": 36, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_redactortext", 
+        "name": "Can delete redactor text", 
+        "content_type": 12
+    }
+},
+{
+    "pk": 37, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_menusection", 
+        "name": "Can add menu section", 
+        "content_type": 13
+    }
+},
+{
+    "pk": 38, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_menusection", 
+        "name": "Can change menu section", 
+        "content_type": 13
+    }
+},
+{
+    "pk": 39, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_menusection", 
+        "name": "Can delete menu section", 
+        "content_type": 13
+    }
+},
+{
+    "pk": 40, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_menuitem", 
+        "name": "Can add menu item", 
+        "content_type": 14
+    }
+},
+{
+    "pk": 41, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_menuitem", 
+        "name": "Can change menu item", 
+        "content_type": 14
+    }
+},
+{
+    "pk": 42, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_menuitem", 
+        "name": "Can delete menu item", 
+        "content_type": 14
+    }
+},
+{
+    "pk": 43, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "add_migrationhistory", 
+        "name": "Can add migration history", 
+        "content_type": 15
+    }
+},
+{
+    "pk": 44, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "change_migrationhistory", 
+        "name": "Can change migration history", 
+        "content_type": 15
+    }
+},
+{
+    "pk": 45, 
+    "model": "auth.permission", 
+    "fields": {
+        "codename": "delete_migrationhistory", 
+        "name": "Can delete migration history", 
+        "content_type": 15
+    }
+},
+{
+    "pk": 1, 
+    "model": "lemon.menuitem", 
+    "fields": {
+        "position": 1, 
+        "section": 1, 
+        "name": "Document", 
+        "content_type": 7
+    }
+},
+{
+    "pk": 1, 
+    "model": "auth.user", 
+    "fields": {
+        "username": "admin", 
+        "first_name": "", 
+        "last_name": "", 
+        "is_active": true, 
+        "is_superuser": true, 
+        "is_staff": true, 
+        "last_login": "2014-04-06T10:05:04.641Z", 
+        "groups": [], 
+        "user_permissions": [], 
+        "password": "pbkdf2_sha256$10000$SFWT5dJf9WKM$DFtBMXglkULZAvBrXHlxmleXbT6ZHcSXsGIzZtuCyRc=", 
+        "email": "admin@admin.com", 
+        "date_joined": "2014-02-22T10:42:12.515Z"
+    }
+},
+{
+    "pk": 2, 
+    "model": "auth.user", 
+    "fields": {
+        "username": "alex", 
+        "first_name": "", 
+        "last_name": "", 
+        "is_active": true, 
+        "is_superuser": true, 
+        "is_staff": true, 
+        "last_login": "2014-02-22T10:51:24.862Z", 
+        "groups": [], 
+        "user_permissions": [], 
+        "password": "pbkdf2_sha256$10000$Ne9OCtBVzA1N$6QCblsv9Dc/9ZnReJ0jVP0omy2AYee7rCdYQ9sol7mA=", 
+        "email": "alex@alex.com", 
+        "date_joined": "2014-02-22T10:51:24.862Z"
+    }
+},
+{
+    "pk": 1, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 3, 
+        "action_time": "2014-02-22T11:00:19.329Z", 
+        "object_repr": "documents/2014/02/22/django-filebrowser-no-grappelli-master_10.zip", 
+        "object_id": "39", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 7
+    }
+},
+{
+    "pk": 2, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 3, 
+        "action_time": "2014-02-22T11:00:19.345Z", 
+        "object_repr": "documents/2014/02/22/django-filebrowser-no-grappelli-master_9.zip", 
+        "object_id": "38", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 7
+    }
+},
+{
+    "pk": 3, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 3, 
+        "action_time": "2014-02-22T11:00:19.353Z", 
+        "object_repr": "documents/2014/02/22/django-filebrowser-no-grappelli-master_8.zip", 
+        "object_id": "37", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 7
+    }
+},
+{
+    "pk": 4, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 3, 
+        "action_time": "2014-02-22T11:00:19.367Z", 
+        "object_repr": "documents/2014/02/22/django-filebrowser-no-grappelli-master_7.zip", 
+        "object_id": "36", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 7
+    }
+},
+{
+    "pk": 5, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 3, 
+        "action_time": "2014-02-22T11:00:19.374Z", 
+        "object_repr": "documents/2014/02/22/django-filebrowser-no-grappelli-master_6.zip", 
+        "object_id": "35", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 7
+    }
+},
+{
+    "pk": 6, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 3, 
+        "action_time": "2014-02-22T11:00:19.383Z", 
+        "object_repr": "documents/2014/02/22/1_19.txt", 
+        "object_id": "34", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 7
+    }
+},
+{
+    "pk": 7, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 3, 
+        "action_time": "2014-02-22T11:00:19.391Z", 
+        "object_repr": "documents/2014/02/22/1_18.txt", 
+        "object_id": "33", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 7
+    }
+},
+{
+    "pk": 8, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 3, 
+        "action_time": "2014-02-22T11:00:19.397Z", 
+        "object_repr": "documents/2014/02/22/1_17.txt", 
+        "object_id": "32", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 7
+    }
+},
+{
+    "pk": 9, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 3, 
+        "action_time": "2014-02-22T11:00:19.403Z", 
+        "object_repr": "documents/2014/02/22/1_16.txt", 
+        "object_id": "31", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 7
+    }
+},
+{
+    "pk": 10, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 3, 
+        "action_time": "2014-02-22T11:00:19.409Z", 
+        "object_repr": "documents/2014/02/22/django-filebrowser-no-grappelli-master_5.zip", 
+        "object_id": "30", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 7
+    }
+},
+{
+    "pk": 11, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 3, 
+        "action_time": "2014-02-22T11:00:19.417Z", 
+        "object_repr": "documents/2014/02/22/1_15.txt", 
+        "object_id": "29", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 7
+    }
+},
+{
+    "pk": 12, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 3, 
+        "action_time": "2014-02-22T11:00:19.424Z", 
+        "object_repr": "documents/2014/02/22/1_14.txt", 
+        "object_id": "28", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 7
+    }
+},
+{
+    "pk": 13, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 3, 
+        "action_time": "2014-02-22T11:00:19.432Z", 
+        "object_repr": "documents/2014/02/22/1_13.txt", 
+        "object_id": "27", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 7
+    }
+},
+{
+    "pk": 14, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 3, 
+        "action_time": "2014-02-22T11:00:19.439Z", 
+        "object_repr": "documents/2014/02/22/django-filebrowser-no-grappelli-master_4.zip", 
+        "object_id": "26", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 7
+    }
+},
+{
+    "pk": 15, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 3, 
+        "action_time": "2014-02-22T11:00:19.445Z", 
+        "object_repr": "documents/2014/02/22/django-filebrowser-no-grappelli-master_3.zip", 
+        "object_id": "25", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 7
+    }
+},
+{
+    "pk": 16, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 3, 
+        "action_time": "2014-02-22T11:00:19.451Z", 
+        "object_repr": "documents/2014/02/22/1_12.txt", 
+        "object_id": "24", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 7
+    }
+},
+{
+    "pk": 17, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 3, 
+        "action_time": "2014-02-22T11:00:19.457Z", 
+        "object_repr": "documents/2014/02/22/1_11.txt", 
+        "object_id": "23", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 7
+    }
+},
+{
+    "pk": 18, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 3, 
+        "action_time": "2014-02-22T11:00:19.465Z", 
+        "object_repr": "documents/2014/02/22/1_10.txt", 
+        "object_id": "22", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 7
+    }
+},
+{
+    "pk": 19, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 3, 
+        "action_time": "2014-02-22T11:00:19.472Z", 
+        "object_repr": "documents/2014/02/22/1_9.txt", 
+        "object_id": "21", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 7
+    }
+},
+{
+    "pk": 20, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 3, 
+        "action_time": "2014-02-22T11:00:19.481Z", 
+        "object_repr": "documents/2014/02/22/1_8.txt", 
+        "object_id": "20", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 7
+    }
+},
+{
+    "pk": 21, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 3, 
+        "action_time": "2014-02-22T11:00:19.487Z", 
+        "object_repr": "documents/2014/02/22/1_7.txt", 
+        "object_id": "19", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 7
+    }
+},
+{
+    "pk": 22, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 3, 
+        "action_time": "2014-02-22T11:00:19.495Z", 
+        "object_repr": "documents/2014/02/22/1_6.txt", 
+        "object_id": "18", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 7
+    }
+},
+{
+    "pk": 23, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 3, 
+        "action_time": "2014-02-22T11:00:19.501Z", 
+        "object_repr": "documents/2014/02/22/1_5.txt", 
+        "object_id": "17", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 7
+    }
+},
+{
+    "pk": 24, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 3, 
+        "action_time": "2014-02-22T11:00:19.508Z", 
+        "object_repr": "documents/2014/02/22/1_4.txt", 
+        "object_id": "16", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 7
+    }
+},
+{
+    "pk": 25, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 3, 
+        "action_time": "2014-02-22T11:00:19.515Z", 
+        "object_repr": "documents/2014/02/22/1_3.txt", 
+        "object_id": "15", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 7
+    }
+},
+{
+    "pk": 26, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 3, 
+        "action_time": "2014-02-22T11:00:19.523Z", 
+        "object_repr": "documents/2014/02/22/1_2.txt", 
+        "object_id": "14", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 7
+    }
+},
+{
+    "pk": 27, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 3, 
+        "action_time": "2014-02-22T11:00:19.531Z", 
+        "object_repr": "documents/2014/02/22/1_1.txt", 
+        "object_id": "13", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 7
+    }
+},
+{
+    "pk": 28, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 3, 
+        "action_time": "2014-02-22T11:00:19.539Z", 
+        "object_repr": "documents/2014/02/22/1.txt", 
+        "object_id": "12", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 7
+    }
+},
+{
+    "pk": 29, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 3, 
+        "action_time": "2014-02-22T11:00:19.545Z", 
+        "object_repr": "documents/2014/02/22/django-filebrowser-no-grappelli-master_2.zip", 
+        "object_id": "11", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 7
+    }
+},
+{
+    "pk": 30, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 3, 
+        "action_time": "2014-02-22T11:00:19.552Z", 
+        "object_repr": "documents/2014/02/22/django-filebrowser-no-grappelli-master_1.zip", 
+        "object_id": "10", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 7
+    }
+},
+{
+    "pk": 31, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 3, 
+        "action_time": "2014-02-22T11:00:19.557Z", 
+        "object_repr": "documents/2014/02/22/django-filebrowser-no-grappelli-master.zip", 
+        "object_id": "9", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 7
+    }
+},
+{
+    "pk": 32, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 3, 
+        "action_time": "2014-02-22T11:00:19.564Z", 
+        "object_repr": "documents/2014/02/21/django-filebrowser-no-grappelli-master_5.zip", 
+        "object_id": "8", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 7
+    }
+},
+{
+    "pk": 33, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 3, 
+        "action_time": "2014-02-22T11:00:19.571Z", 
+        "object_repr": "documents/2014/02/21/django-filebrowser-no-grappelli-master_4.zip", 
+        "object_id": "7", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 7
+    }
+},
+{
+    "pk": 34, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 3, 
+        "action_time": "2014-02-22T11:00:19.577Z", 
+        "object_repr": "documents/2014/02/21/django-filebrowser-no-grappelli-master_3.zip", 
+        "object_id": "6", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 7
+    }
+},
+{
+    "pk": 35, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 3, 
+        "action_time": "2014-02-22T11:00:19.583Z", 
+        "object_repr": "documents/2014/02/21/django-filebrowser-no-grappelli-master_2.zip", 
+        "object_id": "5", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 7
+    }
+},
+{
+    "pk": 36, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 3, 
+        "action_time": "2014-02-22T11:00:19.594Z", 
+        "object_repr": "documents/2014/02/21/django-filebrowser-no-grappelli-master_1.zip", 
+        "object_id": "4", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 7
+    }
+},
+{
+    "pk": 37, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 3, 
+        "action_time": "2014-02-22T11:07:25.774Z", 
+        "object_repr": "documents/2014/02/22/django-filebrowser-no-grappelli-master_11.zip", 
+        "object_id": "4", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 7
+    }
+},
+{
+    "pk": 38, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-02-23T10:48:00.955Z", 
+        "object_repr": "RedactorText object", 
+        "object_id": "1", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 12
+    }
+},
+{
+    "pk": 39, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-02-23T10:50:25.664Z", 
+        "object_repr": "RedactorText object", 
+        "object_id": "2", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 12
+    }
+},
+{
+    "pk": 40, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 1, 
+        "action_time": "2014-03-28T20:54:56.202Z", 
+        "object_repr": "sdf", 
+        "object_id": "1", 
+        "change_message": "", 
+        "user": 1, 
+        "content_type": 13
+    }
+},
+{
+    "pk": 41, 
+    "model": "admin.logentry", 
+    "fields": {
+        "action_flag": 2, 
+        "action_time": "2014-03-28T20:55:29.396Z", 
+        "object_repr": "sdf", 
+        "object_id": "1", 
+        "change_message": "Added menu item \"Document\".", 
+        "user": 1, 
+        "content_type": 13
+    }
+}
+]

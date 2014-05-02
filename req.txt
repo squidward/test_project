@@ -1,0 +1,9 @@
+Django==1.5
+Lemon==0.8.2
+Pillow==2.3.0
+South==0.8.4
+argparse==1.2.1
+django-ckeditor-updated==4.2.6
+django-intellipages==0.1
+django-wysiwyg-redactor==0.3.8.2
+wsgiref==0.1.2

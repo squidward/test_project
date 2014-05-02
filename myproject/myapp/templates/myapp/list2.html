@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Minimal Django File Upload Example</title>
+        <script type="text/javascript" src="{% static 'js/jquery-1.11.0.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'js/jquery.form.js' %}"></script>
+        <!-- -->
+         <script type="text/javascript">
+             $(document).ready(function(){
+                 var options = {
+                    beforeSend: showlabel,
+                    complete: hidelabel,
+                    success: showResponse
+                 };
+                 $('#myForm1').ajaxForm(options);
+             });
+             function showResponse(data){
+                 $('#myForm1').clearForm();
+                 console.log(data.names);
+                 var result = $('<li></li>');
+                 $('<a href = '+data.urls+'> '+data.names+'</a> ').appendTo(result);
+                 result.appendTo('ul');
+
+             }
+             function showlabel(){
+                 $('.loading').addClass('red')
+             }
+
+             function hidelabel(){
+                 $('.lloading').removeClass('red')
+             }
+         </script>
+
+        <!-- -->
+        <style>
+            .red{
+                color:red;
+
+            }
+            .loading{
+                color:green;
+
+            }
+        </style>
+
+    </head>
+
+	<body>
+		<!-- List of uploaded documents -->
+		{% if documents %}
+			<ul>
+			{% for document in documents %}
+				<li><a href="{{ document.document.url }}">{{ document.name }}</a></li>
+			{% endfor %}
+			</ul>
+		{% else %}
+			<p>No documents.</p>
+		{% endif %}
+123123123
+		<!-- Upload form. Note enctype attribute! -->
+		<form id ="myForm1" action="{% url "list2" %}" method="post" enctype="multipart/form-data" >
+			{% csrf_token %}
+			{{ form }}
+			<p><input type="submit" value="Upload" /></p>
+            <a class="loading"> lola</a>
+		</form>
+		
+	</body>
+
+</html> 

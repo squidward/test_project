@@ -1,0 +1,14 @@
+2014-01-31 00:00:16 ERROR  : Error connecting to the server: fe_sendauth: no password supplied
+
+2014-01-31 00:06:02 ERROR  : ERROR:  syntax error at end of input
+LINE 1: CREATE TABLE person 
+                            ^
+2014-01-31 00:06:09 ERROR  : ERROR:  syntax error at end of input
+LINE 1: CREATE TABLE person
+                           ^
+2014-01-31 00:07:39 ERROR  : ERROR:  syntax error at or near "varchar"
+LINE 1: CREATE TABLE person (name varchar, second name varchar);
+                                                       ^
+2014-01-31 00:13:57 ERROR  : ERROR:  SELECT * with no tables specified is not valid
+LINE 1: SELECT *
+               ^
